@@ -1,0 +1,4 @@
+#define iconify_disabled_width 8
+#define iconify_disabled_height 8
+static unsigned char iconify_disabled_bits[] = {
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x41, 0x00 };
