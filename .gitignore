@@ -1,0 +1,6 @@
+tmp/
+build/
+pkg/
+src/
+
+*.tar
