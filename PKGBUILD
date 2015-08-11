@@ -1,6 +1,6 @@
 # Maintainer: Brian Tomlinson <darthlukan@gmail.com>
 pkgname=openbox-theme-silence-arch-git
-pkgver=1.0.8bf97ce
+pkgver=1.0.
 pkgrel=1
 pkgdesc='A dark Openbox 3 theme'
 arch=('any')
@@ -18,7 +18,7 @@ md5sums=('SKIP')
 
 pkgver() {
    cd silence-arch
-   printf "1.0.%s" "$(git rev-list --short HEAD)" 
+   printf "1.0.%s" "$(git rev-parse --short HEAD)" 
 }
 
 package() {
