@@ -23,7 +23,7 @@ pkgver() {
 
 package() {
     cd silence-arch
-    rm -rf .git .gitignore README.md LICENSE
+    rm -rf .git .gitignore README.md LICENSE PKGBUILD screenshot_1.png silence-arch.obt
     mkdir -p ${pkgdir}/usr/share/themes/silence-arch
     cp -R * ${pkgdir}/usr/share/themes/silence-arch
 }
