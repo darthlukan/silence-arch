@@ -1,6 +1,6 @@
 # Maintainer: Brian Tomlinson <darthlukan@gmail.com>
 pkgname=openbox-theme-silence-arch-git
-pkgver=1.0.
+pkgver=1.0.afba0d
 pkgrel=1
 pkgdesc='A dark Openbox 3 theme'
 arch=('any')
